@@ -95,6 +95,7 @@
         android:layout_marginTop="10dp"
         android:text="@string/chat_middle_title"
         android:textSize="24dp"
+        android:textColor="@color/text_color"
         android:textStyle="bold"
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
@@ -118,7 +119,7 @@
         <ListView
             android:id="@+id/conversationsListView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="250dp"
             android:background="@color/purple_500" />
     </androidx.cardview.widget.CardView>
 
